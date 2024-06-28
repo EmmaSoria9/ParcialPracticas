@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ES">
+  <head>
+    <meta charset="UTF-8"> <!--Codificacion-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(Trabajando...) Emma's portfolio</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body> 
+    <nav>
+        <ul id="primer-ul">
+          <li class="lidelnav"><a  class="listas-nav" id="listanav-1" href="SobreMi.html">Sobre mi</a></li>
+          <li class="lidelnav"><a  class="listas-nav" href="Calculadora.html" target="_blank">Primer proyecto</a></li>
+          <li class="lidelnav"><a  class="listas-nav" href="Juego.html">Primer Juego</a></li>
+        <!-- <a href="#contactame">Contactame</a>  -->
+        </ul>
+    </nav>
+    <header>
+      <main>
+        <h1>Hola, me dicen Emma. <br> <strong id="strong-h1">Este es mi portafolio!</strong></h1>
+        <h2 id="h2">Estudiante de programación.<br>Futuro programador Full-Stack</h2>
+      </main>
+      <section id="seccion-conocimientos">
+        <h3>Conocimientos</h3>
+        <ol>
+          <li> HTML </li>
+          <li> CSS </li>
+          <li> GitHub </li>
+          <li> Inglés B1 </li>
+        </ol>
+      </section>
+      <section id="seccion-practica">
+        <h3>Practicando</h3>
+        <figure>
+          <img 
+          alt="Meme de un perro programando" 
+          title="Perro programando"
+          width=310 
+          height=200
+          src="Perro.jpg" 
+          > 
+          <figcaption><strong>Perro programando</strong></figcaption>
+        </figure>
+        <h4> ¿Qué uso para aprender y practicar? </h4>
+        <!-- ALT + 160 = á ALT + 130 = é ALT + 161 = í ALT + 162 = ó ALT + 163 = ú ALT + 0193 = Á ALT + 0201 = É ALT + 0205 = Í -->
+        <details class:"preguntas-rapidas" close>
+          <summary>HTML</summary>
+          <p>Para <strong>HTML</strong> miro distintos cursos en youtube <br> Recomiendo a <a target="_blank" href="https://youtube.com/c/SoyDalto" target="_blank">Soy Dalto</a> y tambien a <a target="_blank" href="https://youtube.com/c/MiduDev" target="_blank">MiduDev</a> y estas páginas para practicar y conocer distintas etiquetas: <a target="_blank" href="https://www.w3schools.com/html/html_exercises.asp">Ejercicios</a> y <a target="_blank" href="https://developer.mozilla.org/es/docs/Web/HTML">Información</a> </p>
+        </details>
+        <details class:"preguntas-rapidas" close>
+          <!--  CTRL + C + K = COMENTARIO
+                SHIFT + ALT Y FLECHAS PARA COPIAR PARA ABAJO
+
+          
+          -->
+          <summary>CSS</summary>
+          <p>Para CSS, de nuevo, recomiendo mirar a <a target="_blank" href="https://youtube.com/c/SoyDalto"> Soy Dalto</a> y a <a target="_blank" href="https://youtube.com/c/MiduDev">MiduDev</a>. Los recomiendo por que a demás de los cursos, <b>analizan distintos códigos,</b> lo que te ayuda a conocer nuevos  errores <br> Para practicar recomiendo <a target="_blank" href="https://exercism.org">Exercism</a> y para conocer a fondo o consultar dudas <a target="_blank" href="https://developer.mozilla.org/es/docs/Web/HTML">MDN</a></p>
+        </details>
+        <details class:"preguntas-rapidas" close>
+          <summary>Conclusión</summary>
+          <p>Todos los lenguajes hoy en día, todos los lenguajes pueden aprenderse en internet con distintos programas o páginas web, lo importante es practicar lo que uno ve y aprender de los errores </p>
+        </details>
+      </section>
+    </header>
+    <footer>
+      <section id="seccion-footer">
+        <form method="post" form="/">
+          <fieldset id="contactame">
+            <legend>FORMULARIO</legend>
+            <label> Numero de telefono
+              <input type="number" placeholder="+54, sin 9 ni 0">
+            </label>
+            <hr>
+            <label> Nombre  
+              <input type="text" placeholder="Juan Roman" required>
+            </label>
+            <hr>
+            <label> Email:   
+              <input type="email" placeholder="juanroman10@gmail.com" required>
+            </label>
+            <hr>
+            <label> Sugerencia:   
+              <input type="text" placeholder="Me gusto el meme" required >
+            </label>
+            <hr>
+            <p>Te gustó la página?</p>
+              <label>
+                <input type="radio" name="radio"> Si
+              </label>
+              <label>
+                <input type="radio" name="radio"> Mucho
+              </label>
+              <label>
+                <input type="radio" name="radio"> Bastante
+              </label>
+            <hr>
+              <label>
+                <input type="checkbox" name="check"> Me gustaria volver
+              </label>
+              <label>
+                <input type="checkbox" name="check"> Voy a volver
+              </label>
+              <label>
+                <input type="checkbox" name="check"> Voy a visitar tus otras páginas
+              </label>
+          </fieldset>
+          <button id="boton-cuestionario">Enviar</button>
+        </form>
+      </section>
+    </footer>
+  </body>
+</html>
+      
+      

@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+}
+nav {
+    background-color: black;
+    padding: 20px;
+    padding-left: 50%;
+
+}
+.listas-nav{
+    color: white;
+    font-size: 15px;
+    margin: 10px;
+
+}
+main{
+    padding: 15%;
+    background-color: rgba(32, 43, 54, 65%);
+
+}
+h1 {
+    color: rgba(255, 255, 255, 200%);
+    text-align: center;
+}
+
+#strong-h1 { 
+    color: rgb(0, 0, 0);
+
+}
+#h2{
+    text-align: center;
+}
+#seccion-conocimientos{
+    text-align: center;
+}
+ul{
+    text-align: center;
+    padding-left: 0%;
+}
+#seccion-practica{
+    text-align: center;
+}
+.preguntas-rapidas{
+    margin: 10px;
+}
+legend{
+    text-align: center;
+}
+form {
+    text-align: center;
+    padding: 50px;
+}
+
+#seccion-footer{
+    p;
+}
+input{
+    margin-left: 10px;
+    padding: 6px 9px;
+    border: none;
+    border-top: 2px solid black;
+    border-right: 1px solid black;
+    background: lightgray;
+}
+input::cue{
+    border-top: 2px solid black;
+    border-right: 1px solid black;
+}
+#boton-cuestionario{
+    margin-top: 10px;
+}
